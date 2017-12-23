@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79D622ABCE292FE9A47AAC3C /* Pods_CaffeineKickTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8AC5EFC1EC052AD64053DB /* Pods_CaffeineKickTests.framework */; };
+		C338EB367DEFEE241895035E /* Pods_CaffeineKick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F028DC2B6DBB27586A6D8067 /* Pods_CaffeineKick.framework */; };
+		FB57EEF91FEF027A0030C5A4 /* VenueDetailHoursCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB57EEF81FEF027A0030C5A4 /* VenueDetailHoursCell.swift */; };
 		FBBA047C1FECA7310005BC01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA047B1FECA7310005BC01 /* AppDelegate.swift */; };
-		FBBA047E1FECA7310005BC01 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA047D1FECA7310005BC01 /* FirstViewController.swift */; };
-		FBBA04801FECA7310005BC01 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA047F1FECA7310005BC01 /* SecondViewController.swift */; };
-		FBBA04831FECA7310005BC01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBBA04811FECA7310005BC01 /* Main.storyboard */; };
+		FBBA047E1FECA7310005BC01 /* VenueMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA047D1FECA7310005BC01 /* VenueMapViewController.swift */; };
+		FBBA04801FECA7310005BC01 /* VenueListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA047F1FECA7310005BC01 /* VenueListViewController.swift */; };
 		FBBA04851FECA7310005BC01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBBA04841FECA7310005BC01 /* Assets.xcassets */; };
-		FBBA04881FECA7310005BC01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBBA04861FECA7310005BC01 /* LaunchScreen.storyboard */; };
 		FBBA04931FECA7310005BC01 /* CaffeineKickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA04921FECA7310005BC01 /* CaffeineKickTests.swift */; };
+		FBBA049E1FECA80D0005BC01 /* VenueDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA049D1FECA80D0005BC01 /* VenueDetailViewController.swift */; };
+		FBBA04A51FECA9120005BC01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBBA04A31FECA9120005BC01 /* LaunchScreen.storyboard */; };
+		FBBA04A61FECA9120005BC01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBBA04A41FECA9120005BC01 /* Main.storyboard */; };
+		FBBA04A81FECAACB0005BC01 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA04A71FECAACB0005BC01 /* NetworkManager.swift */; };
+		FBBA04AB1FECAB4A0005BC01 /* VenueService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA04AA1FECAB4A0005BC01 /* VenueService.swift */; };
+		FBBA04AD1FECB0E60005BC01 /* VenuesNetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA04AC1FECB0E60005BC01 /* VenuesNetworkModel.swift */; };
+		FBBA04B01FECBEB00005BC01 /* VenuePhotosNetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA04AF1FECBEB00005BC01 /* VenuePhotosNetworkModel.swift */; };
+		FBC420991FEEBDCA0022F8F7 /* VenueAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC420981FEEBDCA0022F8F7 /* VenueAnnotation.swift */; };
+		FBC4209D1FEEDD7D0022F8F7 /* VenueDetailImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC4209C1FEEDD7D0022F8F7 /* VenueDetailImageCell.swift */; };
+		FBC4209F1FEEF0180022F8F7 /* VenueHoursNetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC4209E1FEEF0180022F8F7 /* VenueHoursNetworkModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +38,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		146C1076938EC6220FCB60F8 /* Pods-CaffeineKickTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaffeineKickTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CaffeineKickTests/Pods-CaffeineKickTests.release.xcconfig"; sourceTree = "<group>"; };
+		803A0D29DBF9816A4F2E7EF5 /* Pods-CaffeineKick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaffeineKick.release.xcconfig"; path = "Pods/Target Support Files/Pods-CaffeineKick/Pods-CaffeineKick.release.xcconfig"; sourceTree = "<group>"; };
+		9F8AC5EFC1EC052AD64053DB /* Pods_CaffeineKickTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaffeineKickTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA5AC88B42880458B0A51365 /* Pods-CaffeineKickTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaffeineKickTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CaffeineKickTests/Pods-CaffeineKickTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F028DC2B6DBB27586A6D8067 /* Pods_CaffeineKick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaffeineKick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F997B253ED834BE34EC175CA /* Pods-CaffeineKick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaffeineKick.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CaffeineKick/Pods-CaffeineKick.debug.xcconfig"; sourceTree = "<group>"; };
+		FB57EEF81FEF027A0030C5A4 /* VenueDetailHoursCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDetailHoursCell.swift; sourceTree = "<group>"; };
 		FBBA04781FECA7310005BC01 /* CaffeineKick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaffeineKick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBBA047B1FECA7310005BC01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FBBA047D1FECA7310005BC01 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		FBBA047F1FECA7310005BC01 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		FBBA04821FECA7310005BC01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBBA047D1FECA7310005BC01 /* VenueMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueMapViewController.swift; sourceTree = "<group>"; };
+		FBBA047F1FECA7310005BC01 /* VenueListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueListViewController.swift; sourceTree = "<group>"; };
 		FBBA04841FECA7310005BC01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FBBA04871FECA7310005BC01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBBA04891FECA7310005BC01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBBA048E1FECA7310005BC01 /* CaffeineKickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaffeineKickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBBA04921FECA7310005BC01 /* CaffeineKickTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaffeineKickTests.swift; sourceTree = "<group>"; };
 		FBBA04941FECA7310005BC01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBBA049D1FECA80D0005BC01 /* VenueDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDetailViewController.swift; sourceTree = "<group>"; };
+		FBBA04A31FECA9120005BC01 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBBA04A41FECA9120005BC01 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FBBA04A71FECAACB0005BC01 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		FBBA04AA1FECAB4A0005BC01 /* VenueService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueService.swift; sourceTree = "<group>"; };
+		FBBA04AC1FECB0E60005BC01 /* VenuesNetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenuesNetworkModel.swift; sourceTree = "<group>"; };
+		FBBA04AF1FECBEB00005BC01 /* VenuePhotosNetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenuePhotosNetworkModel.swift; sourceTree = "<group>"; };
+		FBC420981FEEBDCA0022F8F7 /* VenueAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueAnnotation.swift; sourceTree = "<group>"; };
+		FBC4209C1FEEDD7D0022F8F7 /* VenueDetailImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDetailImageCell.swift; sourceTree = "<group>"; };
+		FBC4209E1FEEF0180022F8F7 /* VenueHoursNetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueHoursNetworkModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C338EB367DEFEE241895035E /* Pods_CaffeineKick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +79,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79D622ABCE292FE9A47AAC3C /* Pods_CaffeineKickTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07A5418D1FFE14B38B93C143 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F997B253ED834BE34EC175CA /* Pods-CaffeineKick.debug.xcconfig */,
+				803A0D29DBF9816A4F2E7EF5 /* Pods-CaffeineKick.release.xcconfig */,
+				CA5AC88B42880458B0A51365 /* Pods-CaffeineKickTests.debug.xcconfig */,
+				146C1076938EC6220FCB60F8 /* Pods-CaffeineKickTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2CA641ED6D25BAE7E700E7AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F028DC2B6DBB27586A6D8067 /* Pods_CaffeineKick.framework */,
+				9F8AC5EFC1EC052AD64053DB /* Pods_CaffeineKickTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FBBA046F1FECA7310005BC01 = {
 			isa = PBXGroup;
 			children = (
 				FBBA047A1FECA7310005BC01 /* CaffeineKick */,
 				FBBA04911FECA7310005BC01 /* CaffeineKickTests */,
 				FBBA04791FECA7310005BC01 /* Products */,
+				07A5418D1FFE14B38B93C143 /* Pods */,
+				2CA641ED6D25BAE7E700E7AB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,13 +129,14 @@
 		FBBA047A1FECA7310005BC01 /* CaffeineKick */ = {
 			isa = PBXGroup;
 			children = (
+				FBBA049F1FECA8190005BC01 /* Controllers */,
+				FBBA04A21FECA8EE0005BC01 /* Managers */,
+				FBBA04AE1FECB0EB0005BC01 /* Models */,
+				FBBA04A11FECA86A0005BC01 /* Resources */,
+				FBBA04A91FECAAE10005BC01 /* Services */,
+				FBBA04A01FECA82C0005BC01 /* Storyboards */,
+				FBC420971FEEBDAA0022F8F7 /* Views */,
 				FBBA047B1FECA7310005BC01 /* AppDelegate.swift */,
-				FBBA047D1FECA7310005BC01 /* FirstViewController.swift */,
-				FBBA047F1FECA7310005BC01 /* SecondViewController.swift */,
-				FBBA04811FECA7310005BC01 /* Main.storyboard */,
-				FBBA04841FECA7310005BC01 /* Assets.xcassets */,
-				FBBA04861FECA7310005BC01 /* LaunchScreen.storyboard */,
-				FBBA04891FECA7310005BC01 /* Info.plist */,
 			);
 			path = CaffeineKick;
 			sourceTree = "<group>";
@@ -99,6 +150,70 @@
 			path = CaffeineKickTests;
 			sourceTree = "<group>";
 		};
+		FBBA049F1FECA8190005BC01 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FBBA049D1FECA80D0005BC01 /* VenueDetailViewController.swift */,
+				FBBA047F1FECA7310005BC01 /* VenueListViewController.swift */,
+				FBBA047D1FECA7310005BC01 /* VenueMapViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FBBA04A01FECA82C0005BC01 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FBBA04A31FECA9120005BC01 /* LaunchScreen.storyboard */,
+				FBBA04A41FECA9120005BC01 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FBBA04A11FECA86A0005BC01 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FBBA04841FECA7310005BC01 /* Assets.xcassets */,
+				FBBA04891FECA7310005BC01 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FBBA04A21FECA8EE0005BC01 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				FBBA04A71FECAACB0005BC01 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		FBBA04A91FECAAE10005BC01 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FBBA04AA1FECAB4A0005BC01 /* VenueService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FBBA04AE1FECB0EB0005BC01 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FBC4209E1FEEF0180022F8F7 /* VenueHoursNetworkModel.swift */,
+				FBBA04AF1FECBEB00005BC01 /* VenuePhotosNetworkModel.swift */,
+				FBBA04AC1FECB0E60005BC01 /* VenuesNetworkModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FBC420971FEEBDAA0022F8F7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FBC420981FEEBDCA0022F8F7 /* VenueAnnotation.swift */,
+				FBC4209C1FEEDD7D0022F8F7 /* VenueDetailImageCell.swift */,
+				FB57EEF81FEF027A0030C5A4 /* VenueDetailHoursCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBBA04971FECA7320005BC01 /* Build configuration list for PBXNativeTarget "CaffeineKick" */;
 			buildPhases = (
+				E5673A42DAC85E5ACB77E30C /* [CP] Check Pods Manifest.lock */,
 				FBBA04741FECA7310005BC01 /* Sources */,
 				FBBA04751FECA7310005BC01 /* Frameworks */,
 				FBBA04761FECA7310005BC01 /* Resources */,
+				711F0A35120896AFADFF02B6 /* [CP] Embed Pods Frameworks */,
+				E06289D4FFC03F0EAFDBD4E8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,9 +241,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBBA049A1FECA7320005BC01 /* Build configuration list for PBXNativeTarget "CaffeineKickTests" */;
 			buildPhases = (
+				F03A6DC962748A8E96F8EAAC /* [CP] Check Pods Manifest.lock */,
 				FBBA048A1FECA7310005BC01 /* Sources */,
 				FBBA048B1FECA7310005BC01 /* Frameworks */,
 				FBBA048C1FECA7310005BC01 /* Resources */,
+				2DE8BB0F356A4A12A726E238 /* [CP] Embed Pods Frameworks */,
+				53D125C8780B27BFC97EBA3D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +303,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBBA04881FECA7310005BC01 /* LaunchScreen.storyboard in Resources */,
+				FBBA04A61FECA9120005BC01 /* Main.storyboard in Resources */,
 				FBBA04851FECA7310005BC01 /* Assets.xcassets in Resources */,
-				FBBA04831FECA7310005BC01 /* Main.storyboard in Resources */,
+				FBBA04A51FECA9120005BC01 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,14 +318,125 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2DE8BB0F356A4A12A726E238 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CaffeineKickTests/Pods-CaffeineKickTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53D125C8780B27BFC97EBA3D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CaffeineKickTests/Pods-CaffeineKickTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		711F0A35120896AFADFF02B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CaffeineKick/Pods-CaffeineKick-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CaffeineKick/Pods-CaffeineKick-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E06289D4FFC03F0EAFDBD4E8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CaffeineKick/Pods-CaffeineKick-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5673A42DAC85E5ACB77E30C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CaffeineKick-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F03A6DC962748A8E96F8EAAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CaffeineKickTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FBBA04741FECA7310005BC01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBBA04801FECA7310005BC01 /* SecondViewController.swift in Sources */,
+				FB57EEF91FEF027A0030C5A4 /* VenueDetailHoursCell.swift in Sources */,
+				FBC420991FEEBDCA0022F8F7 /* VenueAnnotation.swift in Sources */,
+				FBC4209F1FEEF0180022F8F7 /* VenueHoursNetworkModel.swift in Sources */,
+				FBBA04AD1FECB0E60005BC01 /* VenuesNetworkModel.swift in Sources */,
+				FBBA04801FECA7310005BC01 /* VenueListViewController.swift in Sources */,
+				FBC4209D1FEEDD7D0022F8F7 /* VenueDetailImageCell.swift in Sources */,
 				FBBA047C1FECA7310005BC01 /* AppDelegate.swift in Sources */,
-				FBBA047E1FECA7310005BC01 /* FirstViewController.swift in Sources */,
+				FBBA04B01FECBEB00005BC01 /* VenuePhotosNetworkModel.swift in Sources */,
+				FBBA04A81FECAACB0005BC01 /* NetworkManager.swift in Sources */,
+				FBBA04AB1FECAB4A0005BC01 /* VenueService.swift in Sources */,
+				FBBA047E1FECA7310005BC01 /* VenueMapViewController.swift in Sources */,
+				FBBA049E1FECA80D0005BC01 /* VenueDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,25 +457,6 @@
 			targetProxy = FBBA048F1FECA7310005BC01 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		FBBA04811FECA7310005BC01 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FBBA04821FECA7310005BC01 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FBBA04861FECA7310005BC01 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FBBA04871FECA7310005BC01 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FBBA04951FECA7320005BC01 /* Debug */ = {
@@ -355,36 +568,41 @@
 		};
 		FBBA04981FECA7320005BC01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F997B253ED834BE34EC175CA /* Pods-CaffeineKick.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 24JU47ELH5;
-				INFOPLIST_FILE = CaffeineKick/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CaffeineKick/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nibbis.CaffeineKick;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		FBBA04991FECA7320005BC01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 803A0D29DBF9816A4F2E7EF5 /* Pods-CaffeineKick.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 24JU47ELH5;
-				INFOPLIST_FILE = CaffeineKick/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CaffeineKick/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nibbis.CaffeineKick;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		FBBA049B1FECA7320005BC01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA5AC88B42880458B0A51365 /* Pods-CaffeineKickTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -402,6 +620,7 @@
 		};
 		FBBA049C1FECA7320005BC01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 146C1076938EC6220FCB60F8 /* Pods-CaffeineKickTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
