@@ -10,11 +10,13 @@
 		79D622ABCE292FE9A47AAC3C /* Pods_CaffeineKickTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8AC5EFC1EC052AD64053DB /* Pods_CaffeineKickTests.framework */; };
 		C338EB367DEFEE241895035E /* Pods_CaffeineKick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F028DC2B6DBB27586A6D8067 /* Pods_CaffeineKick.framework */; };
 		FB57EEF91FEF027A0030C5A4 /* VenueDetailHoursCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB57EEF81FEF027A0030C5A4 /* VenueDetailHoursCell.swift */; };
+		FB57EEFB1FEF3ECC0030C5A4 /* VenueHoursNetworkModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB57EEFA1FEF3ECC0030C5A4 /* VenueHoursNetworkModelTests.swift */; };
+		FB57EEFD1FEF3EE60030C5A4 /* VenueServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB57EEFC1FEF3EE60030C5A4 /* VenueServiceTests.swift */; };
 		FBBA047C1FECA7310005BC01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA047B1FECA7310005BC01 /* AppDelegate.swift */; };
 		FBBA047E1FECA7310005BC01 /* VenueMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA047D1FECA7310005BC01 /* VenueMapViewController.swift */; };
 		FBBA04801FECA7310005BC01 /* VenueListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA047F1FECA7310005BC01 /* VenueListViewController.swift */; };
 		FBBA04851FECA7310005BC01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBBA04841FECA7310005BC01 /* Assets.xcassets */; };
-		FBBA04931FECA7310005BC01 /* CaffeineKickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA04921FECA7310005BC01 /* CaffeineKickTests.swift */; };
+		FBBA04931FECA7310005BC01 /* NetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA04921FECA7310005BC01 /* NetworkManagerTests.swift */; };
 		FBBA049E1FECA80D0005BC01 /* VenueDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA049D1FECA80D0005BC01 /* VenueDetailViewController.swift */; };
 		FBBA04A51FECA9120005BC01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBBA04A31FECA9120005BC01 /* LaunchScreen.storyboard */; };
 		FBBA04A61FECA9120005BC01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBBA04A41FECA9120005BC01 /* Main.storyboard */; };
@@ -45,6 +47,8 @@
 		F028DC2B6DBB27586A6D8067 /* Pods_CaffeineKick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaffeineKick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F997B253ED834BE34EC175CA /* Pods-CaffeineKick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaffeineKick.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CaffeineKick/Pods-CaffeineKick.debug.xcconfig"; sourceTree = "<group>"; };
 		FB57EEF81FEF027A0030C5A4 /* VenueDetailHoursCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDetailHoursCell.swift; sourceTree = "<group>"; };
+		FB57EEFA1FEF3ECC0030C5A4 /* VenueHoursNetworkModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueHoursNetworkModelTests.swift; sourceTree = "<group>"; };
+		FB57EEFC1FEF3EE60030C5A4 /* VenueServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueServiceTests.swift; sourceTree = "<group>"; };
 		FBBA04781FECA7310005BC01 /* CaffeineKick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaffeineKick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBBA047B1FECA7310005BC01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBBA047D1FECA7310005BC01 /* VenueMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueMapViewController.swift; sourceTree = "<group>"; };
@@ -52,7 +56,7 @@
 		FBBA04841FECA7310005BC01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBBA04891FECA7310005BC01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBBA048E1FECA7310005BC01 /* CaffeineKickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaffeineKickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FBBA04921FECA7310005BC01 /* CaffeineKickTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaffeineKickTests.swift; sourceTree = "<group>"; };
+		FBBA04921FECA7310005BC01 /* NetworkManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerTests.swift; sourceTree = "<group>"; };
 		FBBA04941FECA7310005BC01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBBA049D1FECA80D0005BC01 /* VenueDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDetailViewController.swift; sourceTree = "<group>"; };
 		FBBA04A31FECA9120005BC01 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -144,8 +148,10 @@
 		FBBA04911FECA7310005BC01 /* CaffeineKickTests */ = {
 			isa = PBXGroup;
 			children = (
-				FBBA04921FECA7310005BC01 /* CaffeineKickTests.swift */,
 				FBBA04941FECA7310005BC01 /* Info.plist */,
+				FBBA04921FECA7310005BC01 /* NetworkManagerTests.swift */,
+				FB57EEFA1FEF3ECC0030C5A4 /* VenueHoursNetworkModelTests.swift */,
+				FB57EEFC1FEF3EE60030C5A4 /* VenueServiceTests.swift */,
 			);
 			path = CaffeineKickTests;
 			sourceTree = "<group>";
@@ -444,7 +450,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBBA04931FECA7310005BC01 /* CaffeineKickTests.swift in Sources */,
+				FB57EEFB1FEF3ECC0030C5A4 /* VenueHoursNetworkModelTests.swift in Sources */,
+				FB57EEFD1FEF3EE60030C5A4 /* VenueServiceTests.swift in Sources */,
+				FBBA04931FECA7310005BC01 /* NetworkManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

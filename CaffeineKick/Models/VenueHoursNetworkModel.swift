@@ -97,12 +97,14 @@ struct Hours: Decodable {
                 let formattedStart = open.clean(time: open.start)
                 let formattedEnd = open.clean(time: open.end)
                 
-                let startDate = dateFormatter.date(from: formattedStart)!
-                let endDate = dateFormatter.date(from: formattedEnd)!
+                let startDate = dateFormatter.date(from: formattedStart)
+                let endDate = dateFormatter.date(from: formattedEnd)
                 
                 dateFormatter.dateFormat = "h:mma"
                 
-                hoursString += " \(dateFormatter.string(from: startDate))-\(dateFormatter.string(from: endDate))"
+                if let startDate = startDate, let endDate = endDate {
+                    hoursString += " \(dateFormatter.string(from: startDate))-\(dateFormatter.string(from: endDate))"
+                }
                 
                 if index + 1 < timeframes.count {
                     hoursString += ", "
