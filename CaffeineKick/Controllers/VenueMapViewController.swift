@@ -20,7 +20,7 @@ class MapViewController: UIViewController {
     
     var currentLocation: CLLocationCoordinate2D?
     var selectedVenue: Venue?
-    var venues: [Venue]!
+    var venues = [Venue]()
     
     var isRetrievingVenues = false
 
@@ -45,7 +45,7 @@ class MapViewController: UIViewController {
         if venues.count > 0 {
             performSegue(withIdentifier: String(describing: VenueListViewController.self), sender: self)
         } else {
-            let alertController = UIAlertController(title: NSLocalizedString("No Venues Loaded", comment: ""), message: NSLocalizedString("There aren't any venues loaded to list yet.", comment: ""), preferredStyle: .alert)
+            let alertController = UIAlertController(title: NSLocalizedString("No Venues Loaded", comment: ""), message: nil, preferredStyle: .alert)
             let okAction = UIAlertAction(title: NSLocalizedString("OK", comment: ""), style: .default, handler: nil)
             alertController.addAction(okAction)
             present(alertController, animated: true, completion: nil)
